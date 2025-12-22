@@ -1,0 +1,17 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "knowledge-level/badges",
+  "title": "Knowledge Level Badges",
+  "category": "widgets",
+  "icon": "awards",
+  "description": "Display knowledge level badges for this post",
+  "keywords": ["badge", "level", "knowledge", "difficulty"],
+  "version": "1.0.0",
+  "textdomain": "knowledge-level",
+  "supports": {
+    "html": false,
+    "customClassName": true
+  },
+  "editorScript": "file:./index.js"
+}

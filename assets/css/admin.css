@@ -1,0 +1,38 @@
+/* Knowledge Level - Admin Styles */
+
+.kl-sortable-badges {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.kl-badge-field {
+    transition: background-color 0.2s, box-shadow 0.2s;
+}
+
+.kl-badge-field:hover {
+    background: #f0f0f0 !important;
+}
+
+.kl-badge-field.ui-sortable-helper {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    background: #fff !important;
+    transform: rotate(2deg);
+}
+
+.kl-sortable-placeholder {
+    height: 80px;
+    background: #e8f4f8;
+    border: 2px dashed #2271b1;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    visibility: visible !important;
+}
+
+.dashicons-menu {
+    cursor: grab;
+}
+
+.dashicons-menu:active {
+    cursor: grabbing;
+}
